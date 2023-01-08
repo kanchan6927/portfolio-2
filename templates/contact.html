@@ -1,0 +1,58 @@
+
+
+
+    {% include "header.html" %}
+     <div id="resume-section">
+        <div class="card-resume">
+            <div class="row">
+                <h5 class="resume-subtitle">CONTACT</h5>
+                <h2 class="resume-title">CONTACT ME</h2>
+                <hr class="hr-below-restitle">
+                <div class="col-lg-6">
+                    <div class="contact-box">
+                        <h6 class="resume-content-subtitle"><i class="new-icon fa-regular fa-location-dot"></i> My Address</h6>
+                        <p class="contact-data">Pune, Maharashtra, India</p>
+                    </div>
+                    <div class="contact-box">
+                        <h6 class="resume-content-subtitle"><i class="new-icon fa-regular fa-envelope"></i> Email Me</h6>
+                        <a class= "contact-data website-link"
+                           href="mailto: phadse04@gmail.com">phadse04@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-box">
+                        <h6 class="resume-content-subtitle"><i class="new-icon fa-regular fa-share-nodes"></i> Social Profiles</h6>
+                        <div class="social-media">
+                            <a href="https://twitter.com/imMPhadse"><i class="contact-data contact-social-link fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="contact-social-link fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/manthan.phadse/"><i class="contact-social-link fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/manthan-phadse-605591175/"><i class="contact-social-link fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <h6 class="resume-content-subtitle"><i class="new-icon fa-regular fa-phone"></i> Call Me</h6>
+                        <a class= "contact-data website-link" href="tel: 7057995047">+91-7057995047</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-box">
+                <form class="from-item" action="{{ url_for('contact_page') }}" method="POST">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input class="form-input" type="text" placeholder="Your Name *" name="Username" required>
+                        </div>
+                        <div class="col-lg-6">
+                            <input class="form-input" type="text" placeholder="Your Email *" name="Email" required>
+                        </div>
+                    </div>
+                    <input class="form-input" type="text" placeholder="Subject" name="Subject">
+                    <textarea class="form-input-big" placeholder="Message *" name="Message" required></textarea>
+                    <button type="submit" class="btn btn-lg submit-buttom" name="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+     </div>
+
+
+</body>
+</html></html>
