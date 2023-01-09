@@ -20,6 +20,12 @@ ul {
     margin: 20% 35% 0;
 }
 
+.welcome-text {
+    letter-spacing: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
 /* Header Page */
 #header-section {
     position: relative;
