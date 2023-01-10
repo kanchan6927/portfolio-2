@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins';
     background-color: #101010;
     color: #fff;
-    background-image: url(/static/images/demoImg.jpg);
+    background-image: url(/static/images/vk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -312,7 +312,7 @@ ul {
 .resume-title {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 25px;
 }
@@ -325,13 +325,13 @@ ul {
 
 .resume-content-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .resume-content-subtitle {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     color: #18d26e;
 }
@@ -389,7 +389,7 @@ ul {
 }
 
 .new-icon {
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 10px;
     color: #18d26e;
 }
@@ -401,7 +401,7 @@ ul {
 
 .contact-social-link {
     color: #fff;
-    font-size: 25px;
+    font-size: 23px;
     margin: 0 25px 0 0;
 }
 
