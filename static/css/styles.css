@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins';
     background-color: #101010;
     color: #fff;
+    background-image: url(/static/images/demoImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 p {
@@ -25,6 +29,16 @@ ul {
     font-weight: 500;
     margin-bottom: 20px;
 }
+
+input[type=text] {
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid #18d26e;
+    transition: .2s;
+}
+
 
 /* Header Page */
 #header-section {
@@ -111,6 +125,10 @@ ul {
     color: #18d26e;
 }
 
+.active {
+    color: #18d26e !important;
+}
+
 /* Social links*/
 
 .social-links {
@@ -171,11 +189,14 @@ ul {
 }
 
 .skill-lang span {
-    display:block;
-    float:right;
+    display: block;
+    float: right;
 }
 
-.html-rate, .python-rate, .css-rate, .sql-rate {
+.html-rate,
+.python-rate,
+.css-rate,
+.sql-rate {
     height: 6px;
     background-color: #555;
     opacity: 1;
@@ -238,8 +259,6 @@ ul {
     color: #aaaaaa;
 }
 
-
-
 /* Resume Page */
 #resume-section {
     position: relative;
@@ -250,15 +269,26 @@ ul {
 
 .card-resume {
     padding: 20px;
-    background-color: #040404;
+    /* background-color: #040404; */
+    background-color: #0404045c;
     margin: 0 8%;
 }
 
 .resume-subtitle {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: #aaaaaa;
     font-size: 17px;
     font-weight: 600;
+}
+
+.resume-subtitle span {
+    width: 80px;
+    height: 1px;
+    background: #18d26e;
+    margin: 0 0 0 1em
 }
 
 /* .item {
@@ -299,6 +329,16 @@ ul {
 .resume-content-links {
     margin-bottom: 8px;
     font-size: 17px;
+    list-style: none;
+}
+
+.arrow li::before {
+    content: '\003E';
+    color: #18d26e;
+}
+
+.arrow li {
+    list-style: none;
 }
 
 .date-range {
@@ -401,4 +441,13 @@ ul {
 .btn:hover {
     background-color: #18d26e;
     color: #040404;
+}
+
+textarea {
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid #18d26e;
+    transition: .2s;
 }
