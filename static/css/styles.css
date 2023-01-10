@@ -30,15 +30,6 @@ ul {
     margin-bottom: 20px;
 }
 
-input[type=text] {
-    outline: none;
-}
-
-input[type=text]:focus {
-    border: 1px solid #18d26e;
-    transition: .2s;
-}
-
 
 /* Header Page */
 #header-section {
@@ -174,11 +165,30 @@ input[type=text]:focus {
     font-weight: 510;
 }
 
+.arrow li::before {
+    content: '\003E';
+    color: #18d26e;
+}
+
+.arrow li {
+    list-style: none;
+}
+
 .resume-subtitle-skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: 15px;
     color: #aaaaaa;
     font-weight: 600;
     font-size: 17px;
+}
+
+.resume-subtitle-skill span {
+    width: 80px;
+    height: 2px;
+    background: #18d26e;
+    margin: 0 0 0 1em;
 }
 
 .skill-lang {
@@ -286,9 +296,9 @@ input[type=text]:focus {
 
 .resume-subtitle span {
     width: 80px;
-    height: 1px;
+    height: 2px;
     background: #18d26e;
-    margin: 0 0 0 1em
+    margin: 0 0 0 1em;
 }
 
 /* .item {
@@ -329,15 +339,6 @@ input[type=text]:focus {
 .resume-content-links {
     margin-bottom: 8px;
     font-size: 17px;
-    list-style: none;
-}
-
-.arrow li::before {
-    content: '\003E';
-    color: #18d26e;
-}
-
-.arrow li {
     list-style: none;
 }
 
@@ -419,6 +420,15 @@ input[type=text]:focus {
     color: #fff;
 }
 
+input[type=text] {
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 2px solid #18d26e;
+    transition: .2s;
+}
+
 .form-input-big {
     background-color: #272727;
     height: 150px;
@@ -427,6 +437,15 @@ input[type=text]:focus {
     padding: 20px;
     margin-bottom: 20px;
     color: #fff;
+}
+
+textarea[typeof=text] {
+    outline: none;
+}
+
+textarea[typeof=text]:focus {
+    border: 2px solid #18d26e;
+    transition: .2s;
 }
 
 .from-item {
