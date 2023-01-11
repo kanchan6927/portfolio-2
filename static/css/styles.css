@@ -251,8 +251,8 @@ ul {
 }
 
 .testimonial-position {
-    width: 50%;
-    margin: 0 25%;
+    width: 70%;
+    margin: 0 15%;
 }
 
 .testimonials-data {
@@ -344,7 +344,11 @@ ul {
 .resume-content-links {
     margin-bottom: 8px;
     font-size: 17px;
-    list-style: none;
+
+}
+
+ol {
+    margin-left: 22px;
 }
 
 .date-range {
