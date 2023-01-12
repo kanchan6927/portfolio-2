@@ -8,9 +8,55 @@ body {
     background-attachment: fixed;
 }
 
+.mobHide {
+    display: block;
+}
+
 @media only screen and (max-width: 900px) {
     body {
         background-position: center;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .mobHide {
+        display: none;
+    }
+
+    .mobNav {
+        position: absolute;
+        top: 0;
+        display: flex;
+        align-items: baseline;
+        background-color: #040404;
+        left: 0;
+        right: 0;
+        padding-left: 8%;
+        transition: .5s;
+    }
+
+    .mobNav ul {
+        display: none;
+    }
+
+    .mobNav .hamburger {
+        position: absolute;
+        right: 0;
+        padding-right: 8;
+    }
+
+    .hamburger span {
+        display: block;
+        list-style: none;
+        background: white;
+        width: 28px;
+        height: 3px;
+        margin: 6px 0;
+    }
+
+    .activeUl {
+        display: block;
     }
 }
 
@@ -92,12 +138,15 @@ ul {
 #header-items {
     position: relative;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-home {
-    position: absolute;
+    /* position: absolute;
     top: 30%;
-    left: 8%;
+    left: 8%; */
     padding: 20px;
     border: 0;
 }
