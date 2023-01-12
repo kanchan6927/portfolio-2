@@ -29,7 +29,6 @@ body {
         top: 0;
         display: flex;
         align-items: baseline;
-        background-color: #040404;
         left: 0;
         right: 0;
         padding-left: 8%;
@@ -40,10 +39,14 @@ body {
         display: none;
     }
 
+    .only-one{
+        padding-top: 20px;
+    }
+
     .mobNav .hamburger {
         position: absolute;
         right: 0;
-        padding-right: 8;
+        padding: 20px 8% 0 0;
     }
 
     .hamburger span {
@@ -82,6 +85,14 @@ ul {
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+    .index-visitor {
+        margin: 70% 15% 0;
+        width: 70%;
+    }
+}
+
+
 
 /* Header Page */
 #header-section {
@@ -100,7 +111,7 @@ ul {
     background-color: #040404;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .navigation-menu {
         padding: 20px;
     }
@@ -115,7 +126,7 @@ ul {
     letter-spacing: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .main-logo {
         font-size: 25px;
     }
@@ -130,9 +141,7 @@ ul {
     background-color: #fff;
 }
 
-.navbar-collapse {
-    padding-left: 10px;
-}
+
 
 /* home page */
 #header-items {
@@ -176,12 +185,26 @@ ul {
     padding-bottom: 4px;
 }
 
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .short-info {
+        font-size: 20px;
+    }
+
+    .profession {
+        padding-bottom: 0;
+    }
+}
+
 /* NavLinks*/
 
 .nav-link {
     color: #FFFFFFB3;
     font-size: 20px;
-    margin: 0 16px 0 -8px;
+    margin-right: 16px;
 }
 
 .nav-link:hover {
@@ -411,6 +434,20 @@ ul {
     font-size: 23px;
     font-weight: 600;
     color: #18d26e;
+}
+
+@media only screen and (max-width: 600px) {
+    .resume-title {
+        font-size: 25px;
+    }
+
+    .resume-content-title {
+        font-size: 23px;
+    }
+
+    .resume-content-subtitle {
+        font-size: 20px;
+    }
 }
 
 .resume-content-links {
