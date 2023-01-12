@@ -65,4 +65,6 @@ Name: ksdbSubject:Hello, this mail is sent by your portfolio for track of Visito
 
 Name: jhdcSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: man
+Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: :)
