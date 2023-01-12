@@ -11,7 +11,7 @@ body {
 @media only screen and (max-width: 900px) {
     body {
         background-position: center;
-        background-color: red;
+        background-color: green;
     }
 }
 
