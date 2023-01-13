@@ -12,13 +12,13 @@ body {
     display: block;
 }
 
-@media only screen and (max-width: 900px) {
+
+
+@media only screen and (max-width: 990px) {
+
     body {
         background-position: center;
     }
-}
-
-@media only screen and (max-width: 990px) {
 
     .mobHide {
         display: none;
@@ -39,7 +39,7 @@ body {
         display: none;
     }
 
-    .only-one{
+    .only-one {
         padding-top: 20px;
     }
 
