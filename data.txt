@@ -156,4 +156,6 @@ Name: khbxcSubject:Hello, this mail is sent by your portfolio for track of Visit
 
 Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: kjsbd
+Name: kjsbdSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: :)
