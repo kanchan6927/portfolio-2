@@ -67,4 +67,6 @@ Name: jhdcSubject:Hello, this mail is sent by your portfolio for track of Visito
 
 Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
+Name: :)Subject:Hello, this mail is sent by your portfolio for track of Visitor.
+
 Name: :)
