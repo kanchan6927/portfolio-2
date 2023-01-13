@@ -8,20 +8,11 @@ body {
     background-attachment: fixed;
 }
 
-.mobHide {
-    display: block;
-}
 
-@media only screen and (max-width: 900px) {
-    body {
-        background-position: center;
-    }
-}
 
 @media only screen and (max-width: 990px) {
-
-    .mobHide {
-        display: none;
+    body {
+        background-position: center;
     }
 
     .mobNav {
@@ -29,21 +20,24 @@ body {
         top: 0;
         display: flex;
         align-items: baseline;
-        background-color: #040404;
         left: 0;
         right: 0;
         padding-left: 8%;
-        transition: .5s;
+
     }
 
     .mobNav ul {
         display: none;
     }
 
+    .only-one {
+        padding-top: 20px;
+    }
+
     .mobNav .hamburger {
         position: absolute;
         right: 0;
-        padding-right: 8;
+        padding: 20px 8% 0 0;
     }
 
     .hamburger span {
@@ -82,10 +76,22 @@ ul {
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+    .index-visitor {
+        margin: 70% 15% 0;
+        width: 70%;
+    }
+}
+
+
 
 /* Header Page */
 #header-section {
     position: relative;
+}
+
+.aniNav {
+    animation: aniNav .5s 1;
 }
 
 .navigation-menu {
@@ -100,7 +106,20 @@ ul {
     background-color: #040404;
 }
 
-@media only screen and (max-width: 900px) {
+@keyframes aniNav {
+
+    0% {
+        top: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .navigation-menu {
         padding: 20px;
     }
@@ -115,7 +134,7 @@ ul {
     letter-spacing: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .main-logo {
         font-size: 25px;
     }
@@ -130,9 +149,7 @@ ul {
     background-color: #fff;
 }
 
-.navbar-collapse {
-    padding-left: 10px;
-}
+
 
 /* home page */
 #header-items {
@@ -141,7 +158,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: animateHome 1s 1;
 }
+
+
 
 .card-home {
     /* position: absolute;
@@ -158,6 +178,10 @@ ul {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0;
+    animation-name: animateName;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .1s;
 }
 
 .name:hover {
@@ -176,12 +200,48 @@ ul {
     padding-bottom: 4px;
 }
 
+@keyframes animateHome {
+    0% {
+        bottom: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animateName {
+    0% {
+        font-size: 35px;
+    }
+
+    100% {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .short-info {
+        font-size: 20px;
+    }
+
+    .profession {
+        padding-bottom: 0;
+    }
+}
+
 /* NavLinks*/
 
 .nav-link {
     color: #FFFFFFB3;
     font-size: 20px;
-    margin: 0 16px 0 -8px;
+    margin-right: 16px;
 }
 
 .nav-link:hover {
@@ -203,8 +263,6 @@ ul {
 .social-links:hover {
     color: #18d26e;
 }
-
-
 
 /* About Page */
 .my-image {
@@ -352,6 +410,7 @@ ul {
     top: 120px;
     bottom: auto;
     padding-bottom: 20px;
+    animation: animateSections 1s 1 .2s;
 }
 
 .card-resume {
@@ -411,6 +470,20 @@ ul {
     font-size: 23px;
     font-weight: 600;
     color: #18d26e;
+}
+
+@media only screen and (max-width: 600px) {
+    .resume-title {
+        font-size: 25px;
+    }
+
+    .resume-content-title {
+        font-size: 23px;
+    }
+
+    .resume-content-subtitle {
+        font-size: 20px;
+    }
 }
 
 .resume-content-links {
@@ -549,4 +622,18 @@ textarea {
 textarea:focus {
     border: 1px solid #18d26e;
     transition: .2s;
+}
+
+
+
+@keyframes animateSections {
+    0% {
+        top: 700px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 120px;
+        opacity: 1;
+    }
 }
