@@ -417,7 +417,7 @@ ul {
     top: 120px;
     bottom: auto;
     padding-bottom: 20px;
-    animation: animateSections 1s 1 .1s;
+    animation: animateSections 1s 1 .2s;
 }
 
 .card-resume {
@@ -462,15 +462,12 @@ ul {
     justify-content: space-between;
 }
 
-.resume-title span {
+.resume-title a {
     font-size: 15px;
     cursor: pointer;
     color: #18d26e;
     border: 1px solid #18d26e;
     padding: 8px;
-}
-
-.resume-title a {
     text-decoration: none;
 }
 
