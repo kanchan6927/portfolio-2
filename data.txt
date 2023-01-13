@@ -69,6 +69,9 @@ Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor
 
 Name: :)Subject:Hello, this mail is sent by your portfolio for track of Visitor.
 
+<<<<<<< HEAD
+Name: :)
+=======
 Name: hsdbSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
 Name: hbdfSubject:Hello, this mail is sent by your portfolio for track of Visitor.
@@ -143,6 +146,7 @@ Name: hsdbSubject:Hello, this mail is sent by your portfolio for track of Visito
 
 Name: sdSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
+<<<<<<< HEAD
 Name: msdhbSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
 Name: kSubject:Hello, this mail is sent by your portfolio for track of Visitor.
@@ -150,3 +154,26 @@ Name: kSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 Name: kSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
 Name: k
+=======
+Name: msdhb
+>>>>>>> 4fb0f158c0c2df2654bcb3fa01c7ef661c5f813d
+Subject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: kdSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: khbxcSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: kjsbdSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: zjdcSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: skdhbSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: jshdSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: JedSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: cskd
+>>>>>>> ed183f3d50f22b0aeb856f728366f943c8dccdad

@@ -19,7 +19,8 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
-   
+    <!-- custom JavaScript -->
+    <script src="../static/js/index.js"></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +33,7 @@
 
 <body>
     <header id="header-section" class="container-fluid">
-        <nav class="navigation-menu navbar  navbar-expand-lg">
+        <nav class="navigation-menu navbar  navbar-expand-lg aniNav">
 
             <a class="main-logo navbar-brand" href="{{ url_for('home_page') }}">Manthan Phadse</a>
 
@@ -46,7 +47,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('home_page') }}">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="about">
                         <a class="nav-link" href="{{ url_for('about_page') }}">About</a>
                     </li>
                     <li class="nav-item">
