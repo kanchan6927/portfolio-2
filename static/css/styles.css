@@ -10,9 +10,16 @@ body {
 
 
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 900px) {
     body {
         background-position: center;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .mobHide {
+        display: none;
     }
 
     .mobNav {
