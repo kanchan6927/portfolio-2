@@ -385,6 +385,13 @@ ul {
     margin: 0 15%;
 }
 
+@media only screen and (max-width: 600px) {
+    .testimonial-position {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
 .testimonials-data {
     text-align: left;
 }
@@ -456,7 +463,6 @@ ul {
 }
 
 .resume-title span {
-
     font-size: 15px;
     cursor: pointer;
     color: #18d26e;
