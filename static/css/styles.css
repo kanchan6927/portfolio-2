@@ -395,10 +395,29 @@ ul {
 @media only screen and (max-width: 900px) {
     .profile-image {
         top: 0;
-        height: 300px;
-        width: 300px;
         margin-bottom: 15px;
     }
+}
+
+.testimonials-data {
+    text-align: left;
+}
+
+.testimonialPerson {
+    display: inline-block;
+    margin-left: 20px;
+    color: #18d26e;
+}
+
+.testimonial-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.testimonial-role {
+    font-size: 12px;
+    color: #aaaaaa;
 }
 
 @media only screen and (max-width: 600px) {
@@ -417,25 +436,10 @@ ul {
     .carouse-buttons {
         visibility: hidden;
     }
-}
 
-.testimonials-data {
-    text-align: left;
-}
-
-.testimonialPerson {
-    display: inline-block;
-    margin-left: 20px;
-    color: #18d26e;
-}
-
-.testimonial-img {
-    border-radius: 50%;
-}
-
-.testimonial-role {
-    font-size: 12px;
-    color: #aaaaaa;
+    .testimonialPerson {
+        margin-left: 5px;
+    }
 }
 
 /* Resume Page */
