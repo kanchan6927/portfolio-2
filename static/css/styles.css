@@ -9,7 +9,6 @@ body {
 }
 
 
-
 @media only screen and (max-width: 900px) {
     body {
         background-position: center;
@@ -167,8 +166,6 @@ ul {
     justify-content: center;
     animation: animateHome 1s 1;
 }
-
-
 
 .card-home {
     /* position: absolute;
@@ -396,6 +393,10 @@ ul {
     .testimonial-position {
         width: 90%;
         margin: 0 5%;
+    }
+
+    .carouse-buttons {
+        visibility: hidden;
     }
 }
 
