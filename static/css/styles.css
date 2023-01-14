@@ -276,7 +276,9 @@ ul {
 .profile-image {
     position: relative;
     top: 10%;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
 }
 
 .item-link {
@@ -389,7 +391,23 @@ ul {
     margin: 0 15%;
 }
 
+@media only screen and (max-width: 900px) {
+    .profile-image {
+        top: 0;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .profile-image {
+        top: 0;
+        height: 175px;
+        width: 175px;
+        margin-bottom: 15px;
+    }
+
     .testimonial-position {
         width: 90%;
         margin: 0 5%;
@@ -511,6 +529,10 @@ ul {
     .resume-content-subtitle {
         font-size: 20px;
     }
+
+     ul {
+        padding-left: 0;
+    }
 }
 
 .resume-content-links {
@@ -587,6 +609,12 @@ ol {
 
 .contact-social-link:hover {
     color: #18d26e;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-social-link {
+        margin: 0 15px 0 0;
+    }
 }
 
 
