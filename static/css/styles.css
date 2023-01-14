@@ -196,6 +196,7 @@ ul {
     color: #FFFFFFCC;
     font-size: 23px;
     margin-bottom: 17px;
+    line-height: 1.5;
 }
 
 .profession {
@@ -531,7 +532,11 @@ ul {
     }
 
      ul {
-        padding-left: 0;
+        padding-left: 10px;
+    }
+
+    .card-resume {
+        margin: 0 5%;
     }
 }
 
