@@ -8,9 +8,6 @@ body {
     background-attachment: fixed;
 }
 
-.deskHide {
-    display: none;
-}
 
 @media only screen and (max-width: 900px) {
     body {
@@ -22,10 +19,6 @@ body {
 
     .mobHide {
         display: none;
-    }
-
-    .mobShow {
-        display: block;
     }
 
     .mobNav {
@@ -829,13 +822,11 @@ textarea:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .card1:hover .overlay {
     opacity: 1;
     transform: scale(1.1);
-
 }
 
 .card2:hover .overlay {
