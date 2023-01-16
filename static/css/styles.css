@@ -739,10 +739,12 @@ textarea:focus {
 .card-body p:nth-child(3) {
     color: #18d26e
 }
-.card-body h5{
+
+.card-body h5 {
     color: #18d26e;
     margin-bottom: 1.5em;
 }
+
 .card-body p:nth-child(5) {
     color: #18d26e
 }
