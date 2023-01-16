@@ -27,6 +27,10 @@ def about_page():
 def resume_page():
     return render_template("resume.html")
 
+@app.route("/work")
+def work_page():
+    return render_template("work.html")
+
 @app.route("/contact", methods=['GET', 'POST'])
 def contact_page():
     if request.method == "POST":
