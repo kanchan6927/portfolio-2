@@ -281,4 +281,6 @@ Name: kanchanSubject:Hello, this mail is sent by your portfolio for track of Vis
 
 Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: man
+Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: k
