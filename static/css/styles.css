@@ -253,6 +253,10 @@ ul {
     .profession {
         padding-bottom: 0;
     }
+
+    .pad-btm {
+        padding-bottom: 3px;
+    }
 }
 
 /* NavLinks*/
@@ -764,7 +768,7 @@ textarea:focus {
 }
 
 .work-card:hover:after {
-    content: 'View Site';
+    content: 'Website';
     display: flex;
     align-items: center;
     justify-content: center;

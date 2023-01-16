@@ -245,4 +245,28 @@ Name: ManthanSubject:Hello, this mail is sent by your portfolio for track of Vis
 
 Name: kSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: k
+Name: kSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: MantSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ksbSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ksbSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ksbSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: nd
