@@ -8,6 +8,9 @@ body {
     background-attachment: fixed;
 }
 
+.deskHide {
+    display: none;
+}
 
 @media only screen and (max-width: 900px) {
     body {
@@ -19,6 +22,10 @@ body {
 
     .mobHide {
         display: none;
+    }
+
+    .mobShow {
+        display: block;
     }
 
     .mobNav {
@@ -772,6 +779,7 @@ textarea:focus {
     overflow: hidden;
     cursor: pointer;
     border-radius: 25px;
+    border: 0;
 }
 
 .card1 {
@@ -858,7 +866,7 @@ textarea:focus {
 }
 
 .overlay a {
-    padding: 5px;
+    padding: 8px;
     border-radius: 25px;
     color: #18d26e !important;
     border: 1px solid #18d26e;
