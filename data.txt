@@ -285,4 +285,8 @@ Name: manSubject:Hello, this mail is sent by your portfolio for track of Visitor
 
 Name: kSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: ki
+Name: kiSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManthanSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: man

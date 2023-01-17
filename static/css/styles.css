@@ -201,7 +201,7 @@ ul {
 }
 
 .navbar-nav .nav-link:hover::after {
-    width: 70%;
+    width: 50%;
 }
 
 
@@ -915,6 +915,7 @@ textarea:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .card1:hover .overlay {
