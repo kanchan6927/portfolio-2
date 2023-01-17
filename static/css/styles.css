@@ -151,11 +151,22 @@ ul {
 }
 
 /* Index Page */
-.index-visitor {
+/* .index-visitor {
+    display: flex;
+    justify-content: center;
     height: 30%;
     width: 30%;
-    margin: 35%;
-    margin: 20% 35% 0;
+    margin: auto;
+} */
+
+.form-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-item: center;
+    margin: auto;
+    height: 100%;
+    width: 30%;
 }
 
 .welcome-text {
@@ -165,12 +176,10 @@ ul {
 }
 
 @media only screen and (max-width: 900px) {
-    .index-visitor {
-        margin: 70% 15% 0;
+    .form-class {
         width: 70%;
     }
 }
-
 
 
 /* Header Page */
