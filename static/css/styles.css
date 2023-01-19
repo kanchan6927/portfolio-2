@@ -618,6 +618,15 @@ ul {
     margin-bottom: 25px;
 }
 
+.dwnbtn {
+    border-radius: 10px;
+}
+
+.dwnbtn:hover {
+    background-color: #18d26e;
+    color: #040404;
+}
+
 .resume-content-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
