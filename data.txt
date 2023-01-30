@@ -307,4 +307,6 @@ Name: ManthanSubject:Hello, this mail is sent by your portfolio for track of Vis
 
 Name: ManthanSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: Mant
+Name: MantSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: Man
