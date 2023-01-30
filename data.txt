@@ -309,4 +309,9 @@ Name: ManthanSubject:Hello, this mail is sent by your portfolio for track of Vis
 
 Name: MantSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: Man
+Name: ManSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManishName: Hello
+Email: man@gmail.com
+Subject: ksdbjck
+Message: jsbdksd
