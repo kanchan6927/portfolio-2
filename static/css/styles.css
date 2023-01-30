@@ -878,38 +878,44 @@ textarea:focus {
 }
 
 .card1 {
-    background-image: url(../images/bird.png);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
 .card2 {
-    background-image: url(../images/vk.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card3 {
-    background-image: url(../images/profile.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card4 {
-    background-image: url(../images/automation.png);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card5 {
-    background-image: url(../images/automation.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card6 {
-    background-image: url(../images/profile.jpg);
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card7, .card8, .card9 {
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -959,6 +965,21 @@ textarea:focus {
     transform: scale(1.1);
 }
 
+.card7:hover .overlay {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.card8:hover .overlay {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.card9:hover .overlay {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 .overlay a {
     padding: 8px;
     border-radius: 25px;
@@ -969,6 +990,10 @@ textarea:focus {
     text-decoration: none;
 
 
+}
+
+.abt-skill-card {
+    text-align: center;
 }
 
 .overlay a:hover {
