@@ -449,53 +449,6 @@ ul {
     float: right;
 }
 
-.html-rate,
-.python-rate,
-.css-rate,
-.sql-rate {
-    height: 6px;
-    background-color: #555;
-    opacity: 1;
-    border: none;
-    margin-bottom: 25px;
-}
-
-.python-rate:before {
-    background-color: #18d26e;
-    content: '';
-    height: 6px;
-    width: 30%;
-    position: absolute;
-}
-
-.html-rate:before {
-    background-color: #18d26e;
-    content: '';
-    height: 6px;
-    width: 36%;
-    position: absolute;
-}
-
-.css-rate:before {
-    background-color: #18d26e;
-    content: '';
-    height: 6px;
-    width: 30%;
-    position: absolute;
-}
-
-.sql-rate:before {
-    background-color: #18d26e;
-    content: '';
-    height: 6px;
-    width: 20%;
-    position: absolute;
-}
-
-.interest-item {
-    margin: 8px 0;
-}
-
 .testimonial-position {
     width: 70%;
     margin: 0 15%;
