@@ -125,6 +125,7 @@ body {
         position: absolute;
         right: 0;
         padding: 20px 8% 0 0;
+
     }
 
     .hamburger span {
@@ -420,6 +421,10 @@ ul {
     list-style: none;
 }
 
+.abt-skill-card {
+    text-align: center;
+}
+
 .resume-subtitle-skill {
     display: flex;
     flex-direction: row;
@@ -435,18 +440,6 @@ ul {
     height: 2px;
     background: #18d26e;
     margin: 0 0 0 1em;
-}
-
-.skill-lang {
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1;
-}
-
-.skill-lang span {
-    display: block;
-    float: right;
 }
 
 .testimonial-position {
@@ -788,8 +781,6 @@ textarea:focus {
 .card {
     background-color: #0404045c;
     margin-bottom: 1em;
-
-
 }
 
 .card-body li {
@@ -831,44 +822,44 @@ textarea:focus {
 }
 
 .card1 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
 .card2 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card3 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card4 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card5 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card6 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card7, .card8, .card9 {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -945,10 +936,6 @@ textarea:focus {
 
 }
 
-.abt-skill-card {
-    text-align: center;
-}
-
 .overlay a:hover {
     background: #18d26e;
     color: #000 !important;
@@ -973,4 +960,85 @@ textarea:focus {
 
 .cross span:nth-child(3) {
     transform: rotate(45deg) translateY(-6px) translateX(-5px);
+}
+
+
+
+/* -------------------------------------------- Advertise -------------------------------------------- */
+
+#overlay-ad .image{
+    position: relative;
+}
+
+
+#overlay-ad .icon-close{
+    color: #040404;
+    cursor: pointer;
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #040404;
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    border-radius: 50%;
+    line-height: 1.8;
+    background: #18d26e;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.icon-close span{
+    position: absolute;
+    font-size: 1em;
+    left: 8px;
+    top: 7px;
+}
+
+.adv-text {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Ariel;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    color: #fff;
+}
+
+.ad-card {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #040404;
+}
+
+#overlay-ad{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 9999;
+    min-height: 150px;
+}
+
+#overlay-ad .wrap{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#overlay-ad:before{
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
 }

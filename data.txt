@@ -320,4 +320,8 @@ Name: jjsbhSubject:Hello, this mail is sent by your portfolio for track of Visit
 
 Name: ksbcSubject:Hello, this mail is sent by your portfolio for track of Visitor.
 
-Name: smdc
+Name: smdcSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: ManthanSubject:Hello, this mail is sent by your portfolio for track of Visitor.
+
+Name: MAN
