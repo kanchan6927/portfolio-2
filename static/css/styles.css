@@ -858,7 +858,9 @@ textarea:focus {
     background-position: center;
 }
 
-.card7, .card8, .card9 {
+.card7,
+.card8,
+.card9 {
     background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position: center;
@@ -966,12 +968,12 @@ textarea:focus {
 
 /* -------------------------------------------- Advertise -------------------------------------------- */
 
-#overlay-ad .image{
+#overlay-ad .image {
     position: relative;
 }
 
 
-#overlay-ad .icon-close{
+#overlay-ad .icon-close {
     color: #040404;
     cursor: pointer;
     float: left;
@@ -988,7 +990,7 @@ textarea:focus {
     font-size: 0.9em;
 }
 
-.icon-close span{
+.icon-close span {
     position: absolute;
     font-size: 1em;
     left: 8px;
@@ -1006,13 +1008,18 @@ textarea:focus {
 }
 
 .ad-card {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    position: absolute;
+    /* top:5%;    on media Query */
+    top: 27px;
+    /* bottom: 0; */
     width: 100%;
     background: #040404;
+    transition: all .5s ease-in-out;
+    animation: animatefooter 2s 1 ease-in;
 }
 
-#overlay-ad{
+#overlay-ad {
     position: fixed;
     text-align: center;
     bottom: 0;
@@ -1023,7 +1030,7 @@ textarea:focus {
     min-height: 150px;
 }
 
-#overlay-ad .wrap{
+#overlay-ad .wrap {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -1033,7 +1040,7 @@ textarea:focus {
     height: 100px;
 }
 
-#overlay-ad:before{
+/* #overlay-ad:before{
     content: '';
     position: fixed;
     width: 100%;
@@ -1041,4 +1048,15 @@ textarea:focus {
     left: 0;
     bottom: 0;
     background: rgba(0,0,0,0.8);
+} */
+
+@keyframes animatefooter {
+    0% {
+        top: 73%;
+
+    }
+
+    100% {
+        top: 0px;
+    }
 }

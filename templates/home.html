@@ -84,30 +84,8 @@
         </div>
     </header>
 
-    <div id="overlay-ad" onclick="hideOverlay()">
-        <div class="ad-card">
-            <span class="adv-text">Advertisement</span>
-            <div class="wrap">
-                <div class="image">
-                    <div class="text-center bg-lightgray">
-                        <a target="_blank" href="https://frontlinecareeracademy.com">
-                            <img class="img-responsive" src="../static/images/mashable.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <i class="icon-close" onclick="hideOverlay()">
-                <span><i class="fa-solid fa-arrow-down"></i></span>
-            </i>
-        </div>
-    </div>
-
-<script>
-        function hideOverlay(){
-            document.getElementById('overlay-ad').style.display = 'none';
-        }
-</script>
-
+    
+    {% include "footer.html" %}
 
 </body>
 </html></html>

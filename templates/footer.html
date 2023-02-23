@@ -1,30 +1,55 @@
-
 {% include "header.html" %}
 
-<div id="overlay-ad" onclick="hideOverlay()">
-        <div class="ad-card">
-            <span class="adv-text">Advertisement</span>
-            <div class="wrap">
-                <div class="image">
-                    <div class="text-center bg-lightgray">
-                        <a target="_blank" href="https://frontlinecareeracademy.com">
-                            <img class="img-responsive" src="../static/images/mashable.png">
-                        </a>
-                    </div>
+<div id="overlay-ad">
+
+    <div class="ad-card " id="ad-card">
+        <span class="adv-text">Advertisement</span>
+        <div class="wrap">
+            <div class="image">
+                <div class="text-center bg-lightgray">
+                    <a target="_blank" href="https://frontlinecareeracademy.com">
+                        <img class="img-responsive" src="../static/images/mashable.png">
+                    </a>
                 </div>
             </div>
-            <i class="icon-close" onclick="hideOverlay()">
-                <span><i class="fa-solid fa-arrow-down"></i></span>
-            </i>
         </div>
+        <i class="icon-close" id="arrow">
+            <span><i class="fa-solid fa-arrow-down" id="arrdwn"></i></span>
+        </i>
     </div>
+</div>
 
 <script>
-        function hideOverlay(){
-            document.getElementById('overlay-ad').style.display = 'none';
-        }
+
+
+
+    $(document).ready(function () {
+        $("#arrow").click(function () {
+            if (document.getElementById('ad-card').style.top == "27px" || document.getElementById('arrdwn').classList.contains('fa-arrow-down')) {
+
+                document.getElementById('ad-card').style.top = "109px";
+
+                document.getElementById('arrdwn').classList.remove('fa-arrow-down');
+                document.getElementById('arrdwn').classList.add('fa-arrow-up');
+
+            }
+            else {
+                document.getElementById('ad-card').style.top = "27px";
+
+                document.getElementById('arrdwn').classList.remove('fa-arrow-up');
+                document.getElementById('arrdwn').classList.add('fa-arrow-down');
+
+
+            }
+        });
+    });
+
+
 </script>
 
 
 </body>
-</html></html>
+
+</html>
+
+</html>
